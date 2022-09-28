@@ -6,18 +6,18 @@ Example:
 #include <norsk.h>
 #include <stdio.h>
 
-helltall main()
+heltall main()
 {
     heltall n = 100;
-    gjør{
+    foreta{
         hvis ((n % 2) == 0) {
-            pritnf("%d -> partall\n", n)
+            printf("%d -> partall\n", n);
         } ellers {
-            pritnf("%d -> oddetall\n", n)
+            printf("%d -> oddetall\n", n);
         }
         n--;
     }
-    mens(n > 0)
+    mens(n > 0);
     retuner 0;
 }
 ```

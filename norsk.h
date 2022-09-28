@@ -3,16 +3,16 @@
 
 #define konst const
 #define strukt struct
-#define størrelsenav sizeof
+#define breddenav sizeof
 
-#define gjør do
+#define foreta do
 #define mens while
 #define hvis if
 #define ellers else
 #define eller ||
 #define og &&
 #define ikke !
-#define gåtil goto
+#define spasertil goto
 #define bryt break
 #define fortsett continue
 #define bytte switch
@@ -32,7 +32,7 @@
 #define heltall int
 #define lang long
 #define fortegn signed 
-#define fortegnsløs unsigned
+#define fortegnsfri unsigned
 #define opptell enum 
 
-#endif NORSK_H
+#endif  // NORSK_H
