@@ -17,7 +17,7 @@
 #define fortsett continue
 #define bytte switch
 #define tilfelle case
-#define retuner return
+#define returner return
 
 #define standard default
 #define statisk static
@@ -31,6 +31,7 @@
 #define karakt char
 #define heltall int
 #define lang long
+#define kjempelang long long
 #define fortegn signed 
 #define fortegnsfri unsigned
 #define opptell enum 
