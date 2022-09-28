@@ -18,5 +18,5 @@ int main(heiltal argc, konst bokst *argv[]) {
     }
 
     printf("%llu\n", t2);
-    return 0;
+    returner 0;
 }
