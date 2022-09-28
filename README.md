@@ -21,3 +21,23 @@ heltall main()
     retuner 0;
 }
 ```
+
+```C
+#include <nynorsk.h>
+#include <stdio.h>
+
+heiltal main()
+{
+    heiltal n = 100;
+    gjer{
+        viss ((n % 2) == 0) {
+            printf("%d -> partal\n", n);
+        } ellers {
+            printf("%d -> oddetal\n", n);
+        }
+        n--;
+    }
+    medan(n > 0);
+    returner 0;
+}
+```
