@@ -1,5 +1,5 @@
-#ifndef NORSK_H
-#define NORSK_H
+#ifndef NYNORSK_H
+#define NYNORSK_H
 
 #define konst const
 #define strukt struct
@@ -19,7 +19,7 @@
 #define tilfelle case
 #define returner return
 
-#define standard default
+#define opprinneleg default
 #define statisk static
 #define utanfor extern
 #define tom void
@@ -28,7 +28,7 @@
 #define flyt float
 #define dobbel double
 #define kort short
-#define karakt char
+#define bokst char
 #define heiltal int
 #define lang long
 #define kjempelang long long
@@ -36,4 +36,4 @@
 #define forteiknslaus unsigned
 #define opptell enum 
 
-#endif  // NORSK_H
+#endif  // NYNORSK_H

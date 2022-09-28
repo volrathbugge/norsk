@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include "nynorsk.h"
 
-int main(heiltal argc, konst karakt *argv[]) {
+int main(heiltal argc, konst bokst *argv[]) {
     assert(argc == 2);
 
     forteiknslaus kjempelang n = atoi(argv[1]);
