@@ -18,7 +18,7 @@ heltall main()
         n--;
     }
     mens(n > 0);
-    retuner 0;
+    returner 0;
 }
 ```
 
