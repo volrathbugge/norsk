@@ -1,5 +1,5 @@
 # norsk
-A most-have header-only library for c/c++
+A must-have header-only library for C/C++
 
 Example:
 ```C
