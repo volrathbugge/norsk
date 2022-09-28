@@ -3,7 +3,7 @@ A most-have header-only library for c/c++
 
 Example:
 ```C
-#include <norsk.h>
+#include <bokmaal.h>
 #include <stdio.h>
 
 heltall main()

@@ -1,5 +1,5 @@
-#ifndef NORSK_H
-#define NORSK_H
+#ifndef BOKMAAL_H
+#define BOKMAAL_H
 
 #define konst const
 #define strukt struct
@@ -17,7 +17,7 @@
 #define fortsett continue
 #define bytte switch
 #define tilfelle case
-#define returner return
+#define retuner return
 
 #define standard default
 #define statisk static
@@ -31,9 +31,8 @@
 #define karakt char
 #define heltall int
 #define lang long
-#define kjempelang long long
 #define fortegn signed 
 #define fortegnsfri unsigned
 #define opptell enum 
 
-#endif  // NORSK_H
+#endif  // BOKMAAL_H
