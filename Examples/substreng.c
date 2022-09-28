@@ -12,22 +12,22 @@ heiltal lengsteLikeSubStreng(konst bokst* X, konst bokst* Y, heiltal m, heiltal 
 	{
 		for (heiltal j = 0; j <= n; j++)
 		{
-			if (i == 0 || j == 0)
+			viss (i == 0 || j == 0)
 				LLSuff[i][j] = 0;
 
-			else if (X[i - 1] == Y[j - 1]) {
+			ellers viss (X[i - 1] == Y[j - 1]) {
 				LLSuff[i][j] = LLSuff[i - 1][j - 1] + 1;
 				resultat = resultat > LLSuff[i][j] ? resultat : LLSuff[i][j];
 			}
-			else
+			ellers
 				LLSuff[i][j] = 0;
 		}
 	}
-	return resultat;
+	returner resultat;
 }
 
 // run: ./substreng "Buffalo buffalo Buffalo buffalo bufallo bufallo Buffalo bufallo" "bufallo"
-int main(heiltal argc, konst bokst *argv[])
+heiltal main(heiltal argc, konst bokst *argv[])
 {
     assert(argc == 3);
 	konst bokst *X = argv[1];
