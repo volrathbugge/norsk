@@ -8,13 +8,13 @@
 #define gjer do
 #define medan while
 #define viss if
-#define ellers else
+#define elles else
 #define eller ||
 #define og &&
 #define ikkje !
 #define faretil goto
 #define bryt break
-#define heldfram continue
+#define haldfram continue
 #define byte switch
 #define tilfelle case
 #define returner return
