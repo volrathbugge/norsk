@@ -8,7 +8,7 @@
 #define gjer do
 #define medan while
 #define viss if
-#define ellers else
+#define elles else
 #define eller ||
 #define og &&
 #define ikkje !

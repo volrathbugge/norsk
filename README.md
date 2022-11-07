@@ -32,7 +32,7 @@ heiltal main()
     gjer{
         viss ((n % 2) == 0) {
             printf("%d -> partal\n", n);
-        } ellers {
+        } elles {
             printf("%d -> oddetal\n", n);
         }
         n--;
