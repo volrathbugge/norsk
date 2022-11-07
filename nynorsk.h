@@ -14,7 +14,7 @@
 #define ikkje !
 #define faretil goto
 #define bryt break
-#define haldfram continue
+#define heldfram continue
 #define byte switch
 #define tilfelle case
 #define returner return
