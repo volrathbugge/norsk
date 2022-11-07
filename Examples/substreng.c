@@ -15,11 +15,11 @@ heiltal lengsteLikeSubStreng(konst bokst* X, konst bokst* Y, heiltal m, heiltal 
 			viss (i == 0 || j == 0)
 				LLSuff[i][j] = 0;
 
-			ellers viss (X[i - 1] == Y[j - 1]) {
+			elles viss (X[i - 1] == Y[j - 1]) {
 				LLSuff[i][j] = LLSuff[i - 1][j - 1] + 1;
 				resultat = resultat > LLSuff[i][j] ? resultat : LLSuff[i][j];
 			}
-			ellers
+			elles
 				LLSuff[i][j] = 0;
 		}
 	}
